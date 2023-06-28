@@ -1,0 +1,14 @@
+{
+  "name": "utils-replace-special-character",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "replace": "node ./utils/replaceSpecialCharacter.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
