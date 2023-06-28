@@ -8,14 +8,6 @@ module.exports.characterList = [
         changeCharacter: '&#187;'
     },
     {
-        searchCharacter: '<', 
-        changeCharacter: '&#60;'
-    },
-    {
-        searchCharacter: '>', 
-        changeCharacter: '&#62;'
-    },
-    {
         searchCharacter: '∧', 
         changeCharacter: '&#8743;'
     },
@@ -200,10 +192,6 @@ module.exports.characterList = [
         changeCharacter: '&#164;'
     },
     {
-        searchCharacter: '&', 
-        changeCharacter: '&#38;'
-    },
-    {
         searchCharacter: '〒', 
         changeCharacter: '&#12306;'
     },
@@ -306,6 +294,10 @@ module.exports.characterList = [
     {
         searchCharacter: '✕', 
         changeCharacter: '&#10005;'
+    },
+    {
+        searchCharacter: '〜', 
+        changeCharacter: '&sim;'
     },
     {
         searchCharacter: '～', 
