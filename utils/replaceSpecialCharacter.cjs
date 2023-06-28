@@ -18,8 +18,6 @@ async function replaceSpecialCharacter(fileList) {
 
     for (let i = 0; i < fileList.length; i++) {
 
-        console.log(fileList[i])
-
         const data = await fs.readFile(fileList[i], 'utf-8');
         const newDate = await replaceContent(data);
 
